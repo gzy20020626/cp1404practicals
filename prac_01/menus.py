@@ -19,10 +19,12 @@ display Finished.
 
 name = input("Enter name: ")
 
+
 def display_menu():
     print("(H)ello")
     print("(G)oodbye")
     print("(Q)uit")
+
 
 display_menu()
 choice = input(">>> ").upper()
