@@ -13,6 +13,7 @@ function shop_calculator()
    display items
 """
 
+
 def shop_calculator():
     total = 0
     num_items = int(input("Number of items: "))

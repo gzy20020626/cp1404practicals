@@ -18,6 +18,7 @@ while sales >= 0
 do next thing
 """
 
+
 BONU_RATE_LOW = 0.1
 BONU_RATE_HIGHT = 0.15
 
