@@ -52,5 +52,3 @@ def convert_to_result(score):
 
 
 main()
-
-
