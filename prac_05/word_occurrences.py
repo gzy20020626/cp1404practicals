@@ -21,8 +21,8 @@ statistic = {}
 max_length = 0
 
 for word in words_list:
-    if len(word)>max_length:
-        max_length=len(word)
+    if len(word) > max_length:
+        max_length = len(word)
 
     frequency = statistic.get(word, 0)
     statistic[word] = frequency + 1
@@ -32,4 +32,3 @@ words.sort()
 
 for word in words:
     print(f"{word:{max_length}} : {statistic[word]}")
-
