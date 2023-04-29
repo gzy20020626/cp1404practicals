@@ -22,6 +22,7 @@ function display guitars
         get vintage_string
         print index name year cost vintage_string
 """
+
 from guitar import Guitar
 
 
@@ -57,4 +58,3 @@ def display_guitars(guitars):
 
 
 main()
-# test()
