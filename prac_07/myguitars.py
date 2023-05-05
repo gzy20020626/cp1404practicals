@@ -13,6 +13,7 @@ Actual:   30 minutes
 """
 CSV_FILE = "guitars.csv"
 
+
 class Guitar:
     def __init__(self, name, year, cost):
         self.name = name
@@ -27,11 +28,8 @@ class Guitar:
 
 
 def main():
-    #  ask the user to enter their new guitars
     guitars = get_guitars()
-    # write guitars to csv
     write_csv(guitars, CSV_FILE)
-    # read guitars from csv
     read_csv(CSV_FILE)
 
 
@@ -48,7 +46,6 @@ def run_tests():
 
 
 def read_csv(csv_file):
-    # read csv
     infile = open(csv_file, "r")
     guitars = []
     for line in infile:
@@ -84,4 +81,3 @@ def get_guitars():
 
 if __name__ == "__main__":
     main()
-    # run_tests()

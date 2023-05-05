@@ -23,14 +23,14 @@
 - Filter projects by date
 > list.sort()
 - Add new project
-> get user input and convert to an project object
+> get user input and convert to a project object
 - Update project
 > modify certain project
 
 ```python
 import datetime
 
-date_string = input("Date (d/m/yyyy): ")  # e.g., "30/9/2022"
+date_string = input("Date (d/m/yyyy): ") # e.g., "30/9/2022"
 date = datetime.datetime.strptime(date_string, "%d/%m/%Y").date()
 print(f"That day is/was {date.strftime('%A')}")
 print(date.strftime("%d/%m/%Y"))
